@@ -1,0 +1,35 @@
+p {
+    color: green;
+}
+#titol{
+    font-size: larger;
+}
+.text-important{
+    color: red;
+    font-weight: bold;
+}
+.vermell{
+    color: red;
+}
+.gran{
+    font-size: 24px;
+}
+.negreta{
+    font-weight: bold;
+}
+.subratllat{
+    text-decoration: underline;
+}
+a:hover{
+    color: blue;
+    cursor: pointer;
+}
+p::before {
+  content: "👉 ";
+  color: blue;
+}
+
+p::after {
+  content: " ✔";
+  color: green;
+}
